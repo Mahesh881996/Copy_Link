@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://btgroupcloud.sharepoint.com.mcas.ms/sites/ProjectManagementPortal/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "b904469c-faaf-4799-a63c-f1b6eecf7db7": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "copyLink": {
+      "pageUrl": "https://btgroupcloud.sharepoint.com.mcas.ms/sites/ProjectManagementPortal/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "b904469c-faaf-4799-a63c-f1b6eecf7db7": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

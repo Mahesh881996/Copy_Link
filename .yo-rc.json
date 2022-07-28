@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "copy-link",
+    "libraryId": "11317492-f984-4982-9949-a13fe5aeff87",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Copy_Link",
+    "solutionShortDescription": "Copy_Link description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

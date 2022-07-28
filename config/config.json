@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "copy-link-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/copyLink/CopyLinkCommandSet.js",
+          "manifest": "./src/extensions/copyLink/CopyLinkCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CopyLinkCommandSetStrings": "lib/extensions/copyLink/loc/{locale}.js"
+  }
+}
